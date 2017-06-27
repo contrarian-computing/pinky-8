@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS6C1008
+D Alliance Memory 128K x 8-bit Low Power CMOS SRAM, 55ns, PDIP-32
+K sram
+F datasheets/AS6C1008 feb 2007-2236.pdf
+$ENDCMP
+#
+$CMP AS6C62256
+D Alliance Memory 32K x 8-bit Low Power CMOS SRAM, 55ns, DIP-28
+K sram
+F datasheets/AS6C62256 feb 2007-218052.pdf
+$ENDCMP
+#
+$CMP DS1813
+D Dallas Semiconductor / Maxim 5V EconoReset, TO-92-3
+K reset
+F datasheets/DS1813-93440.pdf
+$ENDCMP
+#
+$CMP GLS29EE010
+D Greeliant 1Mbit (128K x 8-bit) Page-Write EEPROM, 70ns
+K eeprom
+F datasheets/71061-1102136.pdf
+$ENDCMP
+#
+#End Doc Library

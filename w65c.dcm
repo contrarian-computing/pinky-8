@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W65C02S
+D Western Design Center 8-bit Microprocessor, PDIP-40
+K 6502, 65c02
+F datasheets/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C22S
+D Western Design Center Versatile Interface Adapter (VIA), PDIP-40
+K via
+F datasheets/w65c22.pdf
+$ENDCMP
+#
+#End Doc Library
