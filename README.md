@@ -2,6 +2,8 @@
 
 A simple, open source, homebrew SBC built around the WDC 65C02S.
 
+![PINKY-8 Rev A Stuffed](pinky-8_rev_a_pcb_stuffed_cropped.jpg?raw=true "PINKY-8 Rev A Stuffed")
+
 When ARM is too much, try PINKY.
 
 Note: The following refers to the Rev A board tag.
