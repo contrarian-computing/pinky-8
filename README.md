@@ -37,9 +37,9 @@ on a well-regulated 5V supply (such as a phone charger) attached via a standard 
 For good performance at minimal cost, address decoding is performed using a single 74AC00 Quad NAND Gate using a
 scheme advanced by 6502 afficionado, Garth Wilson.
 
-SRAM: $0000-$3FFF (16K)
-VIA:  $6000-$600F
-ROM:  $8000-$FFFF (32K)
+SRAM: $0000-$3FFF (16K)  
+VIA:  $6000-$600F  
+ROM:  $8000-$FFFF (32K)  
 
 ### Clock
 Components have been selected to support a maximum clock speed of about 5Mhz. Beyond that faster ROM and RAM are 
@@ -54,47 +54,28 @@ any boardhouse.
 ## Bill of Materials
 
 ### Required
-1 x W65C02S, PDIP-40
-
-1 x W65C22S, PDIP-40
-
-1 x SST39SF010A-70, PDIP-32
-
-1 x AS6C62256-55PCN, PDIP-28
-
-1 x SN74AC00N, PDIP-14
-
-1 x 1-5Mhz 50% Duty Cycle, 10ns Rise Time Oscillator, DIP-8
-
-1 x DS1813-5+ (5% Tolerance), TO-92-3 w/Bent Legs
-
-1 x Tactile Switch 6.0x6.0x4.3mm, Through Hole, 4 Lead
-
-1 x USB B Female Through-Hole Receptacle
-
-5 x 0.1uF 50V MLCC Axial Capacitors
-
-4 x 3.3kOhm 1/4W Axial Metal Film Resistors
-
-1 x 100uF 10V Radial Aluminum Electrolytic Capacitor
-
-1 x 2x3 Pin Header .1" spacing (or 3 x 2x1 Pin Header)
-
-2 x 2x7 Female Socket Header .1" spacing (can substitute with pin header)
-
+1 x W65C02S, PDIP-40  
+1 x W65C22S, PDIP-40  
+1 x SST39SF010A-70, PDIP-32  
+1 x AS6C62256-55PCN, PDIP-28  
+1 x SN74AC00N, PDIP-14  
+1 x 1-5Mhz 50% Duty Cycle, 10ns Rise Time Oscillator, DIP-8  
+1 x DS1813-5+ (5% Tolerance), TO-92-3 w/Bent Legs  
+1 x Tactile Switch 6.0x6.0x4.3mm, Through Hole, 4 Lead  
+1 x USB B Female Through-Hole Receptacle  
+5 x 0.1uF 50V MLCC Axial Capacitors  
+4 x 3.3kOhm 1/4W Axial Metal Film Resistors  
+1 x 100uF 10V Radial Aluminum Electrolytic Capacitor  
+1 x 2x3 Pin Header .1" spacing (or 3 x 2x1 Pin Header)  
+2 x 2x7 Female Socket Header .1" spacing (can substitute with pin header)  
 2 x 2-pin Jumper / Shunt, .1" spacing
 
 ### Optional
-2 x DIP-40 Dual wipe or machined sockets
-
-1 x DIP-32 Dual wipe or machined socket
-
-1 x DIP-28 Dual wipe or machined socket
-
-1 x DIP-14 Dual wipe or machined socket
-
-1 x DIP-8 Dual wipe or machined socket
-
+2 x DIP-40 Dual wipe or machined sockets  
+1 x DIP-32 Dual wipe or machined socket  
+1 x DIP-28 Dual wipe or machined socket  
+1 x DIP-14 Dual wipe or machined socket  
+1 x DIP-8 Dual wipe or machined socket  
 3 x M2.5 standoffs for mounting
 
 ## Construction
