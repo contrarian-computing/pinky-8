@@ -1,6 +1,6 @@
 # PINKY-8
 
-A simple, open source, homebrew SBC built around the WDC 65C02S.
+An affordable, 6502-based SBC for education and retrocomputing that you can build yourself
 
 ![PINKY-8 Rev A Stuffed](pinky-8_rev_a_pcb_stuffed_cropped.jpg?raw=true "PINKY-8 Rev A Stuffed")
 
@@ -18,7 +18,7 @@ Note: The following refers to the Rev A board tag.
 * Compact 91x68mm (approx 3.5x2.6") form-factor
 * Two-sided PCB and minimal componentry make for extremely affordable retrocomputing
 
-## Design
+## Design Approach
 
 ### Period Appropriate with New Components
 PINKY-8 is intended as an affordable educational and/or hobbyist device for those wishing to gain firsthand experience
@@ -26,12 +26,14 @@ with the historically significant 6502 processor and vintage computer constructi
 still in production today that are similar to those found in commercial designs of the late 1970s and early 1980s. 
 Building a PINKY-8 does not require scavenging parts from vintage machines and every bit can easily be soldered by hand.
 
-### Minimalist but Expandable
+### Minimal but Expandable
 PINKY-8 is a barebones SBC with onboard I/O limited to the 2 x 8-bit bi-directional GPIO pins and control lines offered by
 the 65C22S Versatile Interface Adapter. These are exposed in two 2x7 socket headers into which expansion boards supporting
 other forms of I/O (e.g. SPI, I2C, video, sound) can be plugged, similar to Arduino shields. There is no elaborate
-programmable bank switching for RAM or ROM, just jumpers on the board. In lieu of power regulation circuitry, PINKY-8 depends
-on a well-regulated 5V supply (such as a phone charger) attached via a standard USB A-to-B cable.
+programmable bank switching for RAM or ROM, just jumpers on the board. In lieu of power regulation circuitry, PINKY-8 depends on a well-regulated 5V supply (such as a phone charger) attached via a standard USB A-to-B cable.
+
+### Fully Open-Source
+PINKY-8 is open-source hardware created with open-source hardware, specifically KiCad 4.0.6. Source for its ROM is located in a separate repository and can be assembled with the open-source CC65 suite.
 
 ## Specifications
 
@@ -82,4 +84,4 @@ any boardhouse.
 
 ## Construction
 
-Detailed instructions for board assembly coming soon.
+Detailed instructions for board assembly will be added to the wiki shortly.
