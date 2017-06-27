@@ -38,9 +38,7 @@ For good performance at minimal cost, address decoding is performed using a sing
 scheme advanced by 6502 afficionado, Garth Wilson.
 
 SRAM: $0000-$3FFF (16K)
-
 VIA:  $6000-$600F
-
 ROM:  $8000-$FFFF (32K)
 
 ### Clock
