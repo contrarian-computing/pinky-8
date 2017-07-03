@@ -1,4 +1,4 @@
-update=Wed 07 Jun 2017 05:42:43 PM HST
+update=Sun 02 Jul 2017 05:06:06 PM HST
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=w65c
 LibName31=Oscillators
 LibName32=retrocomps
 LibName33=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
