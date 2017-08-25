@@ -9,13 +9,15 @@ When ARM is too much, try PINKY.
 Note: The following refers to the Rev A board tag.
 
 ## Overview
-* Features WDC's updated version of the venerable 6502 8-bit microprocessor at speeds up to 5Mhz
-* 16K of addressable SRAM
-* 128K of Flash ROM in jumper-selected, 32K banks
+* Uses WDC's updated version of the venerable 6502 8-bit microprocessor for authentic retrocomputing
+* 32K of addressable SRAM
+* 128K of Flash ROM in jumper-selected, 16K banks
 * W65C22S Versatile Interface Adapter supplying 2 x 8-bit bi-directional GPIOs with control lines
 * Power-on reset as well as manual reset via push button
+* NMI button facilitates debugging and custom functionality
 * USB-B receptacle for 5V power, works with any well-regulated phone charger
-* Compact 91x68mm (approx 3.5x2.6") form-factor
+* Compact 3.5" x 2.8" form-factor
+* Uses only through-hole components for easy hand assembly
 * Two-sided PCB and minimal componentry make for extremely affordable retrocomputing
 
 ## Design Approach
@@ -41,9 +43,9 @@ PINKY-8 is open-source hardware created with open-source hardware, specifically 
 For good performance at minimal cost, address decoding is performed using a single 74AC00 Quad NAND Gate using a
 scheme advanced by 6502 afficionado, Garth Wilson.
 
-SRAM: $0000-$3FFF (16K)  
-VIA:  $6000-$600F  
-ROM:  $8000-$FFFF (32K)  
+SRAM: $0000-$7FFF (32K)  
+VIA:  $8000-$800F  
+ROM:  $C000-$FFFF (16K)  
 
 ### Clock
 Components have been selected to support a maximum clock speed of about 5Mhz. Beyond that faster ROM and RAM are 
@@ -64,15 +66,15 @@ any boardhouse.
 1 x AS6C62256-55PCN, PDIP-28  
 1 x SN74AC00N, PDIP-14  
 1 x 1-5Mhz 50% Duty Cycle, 10ns Rise Time Oscillator, DIP-8  
-1 x DS1813-5+ (5% Tolerance), TO-92-3 w/Bent Legs  
-1 x Tactile Switch 6.0x6.0x4.3mm, Through Hole, 4 Lead  
+2 x DS1813-5+ (5% Tolerance), TO-92-3 w/Bent Legs  
+2 x Tactile Switch 6.0x6.0x4.3mm, Through Hole, 4 Lead  
 1 x USB B Female Through-Hole Receptacle  
-5 x 0.1uF 50V MLCC Axial Capacitors  
-4 x 3.3kOhm 1/4W Axial Metal Film Resistors  
+6 x 0.1uF 50V MLCC Axial Capacitors  
+3 x 3.3kOhm 1/4W Axial Metal Film Resistors  
 1 x 100uF 10V Radial Aluminum Electrolytic Capacitor  
-1 x 2x3 Pin Header .1" spacing (or 3 x 2x1 Pin Header)  
+3 x 1x3 Pin Header .1" spacing  
 2 x 2x7 Female Socket Header .1" spacing (can substitute with pin header)  
-2 x 2-pin Jumper / Shunt, .1" spacing
+3 x 2-pin Jumper / Shunt, .1" spacing
 
 ### Optional
 2 x DIP-40 Dual wipe or machined sockets  
