@@ -368,7 +368,7 @@ RAMSEL#
 Wire Wire Line
 	8850 4550 8950 4550
 Text Label 8950 4550 0    60   ~ 0
-VIASEL#
+A14
 Wire Wire Line
 	8850 4450 8950 4450
 Text Label 8950 4450 0    60   ~ 0
@@ -1039,10 +1039,6 @@ Text Label 3750 4950 2    60   ~ 0
 CLK
 Text Label 3750 5050 2    60   ~ 0
 RAMSEL#
-Text Label 4650 4500 0    60   ~ 0
-A14
-Text Label 4650 4700 0    60   ~ 0
-VIASEL#
 $Comp
 L C C4
 U 1 1 5932C14F
@@ -1542,8 +1538,6 @@ Text Label 4650 4950 0    60   ~ 0
 A15
 Text Label 4650 5050 0    60   ~ 0
 ROMSEL#
-Text Label 4650 4600 0    60   ~ 0
-A14
 Text Label 3750 4600 2    60   ~ 0
 A15
 $Comp
@@ -1777,23 +1771,23 @@ $EndComp
 $Comp
 L CONN_01X01 P10
 U 1 1 598E70C0
-P 4900 4550
-F 0 "P10" H 4900 4650 50  0001 C CNN
-F 1 "CONN_01X01" V 5000 4550 50  0001 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4900 4550 50  0001 C CNN
-F 3 "" H 4900 4550 50  0000 C CNN
-	1    4900 4550
+P 4900 4350
+F 0 "P10" H 4900 4450 50  0001 C CNN
+F 1 "CONN_01X01" V 5000 4350 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4900 4350 50  0001 C CNN
+F 3 "" H 4900 4350 50  0000 C CNN
+	1    4900 4350
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X01 P13
 U 1 1 598E720F
-P 4900 4900
-F 0 "P13" H 4900 5000 50  0001 C CNN
-F 1 "CONN_01X01" V 5000 4900 50  0001 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4900 4900 50  0001 C CNN
-F 3 "" H 4900 4900 50  0000 C CNN
-	1    4900 4900
+P 4900 5200
+F 0 "P13" H 4900 5300 50  0001 C CNN
+F 1 "CONN_01X01" V 5000 5200 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 4900 5200 50  0001 C CNN
+F 3 "" H 4900 5200 50  0000 C CNN
+	1    4900 5200
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1845,8 +1839,14 @@ Connection ~ 4750 2350
 Connection ~ 7050 2350
 Connection ~ 3500 5950
 Connection ~ 3700 6250
-Connection ~ 5100 4550
 Wire Wire Line
 	2350 7150 2650 7150
 Connection ~ 2650 7150
+NoConn ~ 4650 4700
+Text Label 4650 4600 0    60   ~ 0
+PLDN
+Text Label 4650 4500 0    60   ~ 0
+PLDN
+Connection ~ 5100 4350
+Connection ~ 5100 5200
 $EndSCHEMATC
