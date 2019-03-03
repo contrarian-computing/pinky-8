@@ -3,15 +3,16 @@
 An affordable, 6502-based SBC for education and retrocomputing that you can build yourself
 
 ![PINKY-8 Rev A Stuffed](pinky-8_rev_a_pcb_stuffed_cropped.jpg?raw=true "PINKY-8 Rev A Stuffed")
+Note: The image above is of the earlier Revision A board. Revision B has similar dimensions, additional buttons and jumpers, and an improved layout permitting typical corner mounting holes.
 
 When ARM is too much, try PINKY.
 
-Note: The following refers to the Rev A board tag.
+Note: The following refers to the Rev B board tag.
 
 ## Overview
 * Uses WDC's updated version of the venerable 6502 8-bit microprocessor for authentic retrocomputing
 * 32K of addressable SRAM
-* 128K of Flash ROM in jumper-selected, 16K banks
+* 128K of Flash ROM in 8 jumper-selected, 16K banks
 * W65C22S Versatile Interface Adapter supplying 2 x 8-bit bi-directional GPIOs with control lines
 * Power-on reset as well as manual reset via push button
 * NMI button facilitates debugging and custom functionality
@@ -82,8 +83,8 @@ any boardhouse.
 1 x DIP-28 Dual wipe or machined socket  
 1 x DIP-14 Dual wipe or machined socket  
 1 x DIP-8 Dual wipe or machined socket  
-3 x M2.5 standoffs for mounting
+4 x M2.5 standoffs for mounting
 
 ## Construction
 
-Detailed instructions for board assembly will be added to the wiki shortly.
+Detailed instructions for board assembly will be added to the wiki in time.
